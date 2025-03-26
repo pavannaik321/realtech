@@ -23,15 +23,6 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <About />
-      <WhyItStarted/>
-      <Services />
-      <WhyItMatters />
-      <WhyChooseUs />
-      <Pricing />
-      <Contact />
-      <Footer />
-      {/* realtech */}
     </div>
   );
 }

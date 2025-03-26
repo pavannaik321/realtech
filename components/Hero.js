@@ -1,31 +1,33 @@
-// components/Hero.js
-export default function Hero() {
-    return (
-      <section data-aos="fade-right"  className="flex flex-col items-start py-16 px-6 md:pl-36 bg-gray-50">
-        {/* Logo & Title Container */}
-        <div className="flex items-center space-x-3">
-          <img
-            src="/images/Logo.png" // ✅ Replace with actual logo path
-            alt="Cradle Wing Logo"
-            className="w-10 h-12"
-          />
-          <h1 className="text-4xl font-bold text-gray-900">Cradle Wing</h1>
-        </div>
-  
-        {/* Description */}
-        <p  className="mt-4 text-lg text-gray-600 max-w-2xl">
-          Pregnancy brings physical and emotional challenges, and our trained caretakers are here to help. 
-          From physical assistance and emotional support to basic medical care, we ensure expecting mothers 
-          feel safe, comfortable, and stress-free throughout every stage of pregnancy.
-        </p>
-  
-        {/* Call to Action Button */}
-        <a href="#contact-us">
-        <button className="mt-6 px-6 py-3 bg-gray-600 text-white rounded-full shadow-md hover:bg-gray-700 transition">
-          Connect With Us
-        </button>
-      </a>
-      </section>
-    );
-  }
-  
+import React from "react";
+
+export default function HeroSection() {
+  return (
+    <div className="relative w-full h-auto min-h-screen bg-black">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none"
+        src="/videos/optimized_video.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      ></video>
+
+      {/* Overlay */}
+      <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center px-4">
+        <p className="text-xs md:text-sm tracking-widest">SHOPSABRE</p>
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-2 leading-snug sm:leading-tight">
+          THE WAY CNC MACHINES <br className="hidden sm:block" /> ARE MEANT TO BE
+        </h1>
+
+        {/* Button */}
+        <a
+          href="#quote"
+          className="mt-6 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 sm:px-6 sm:py-3 rounded-lg transition-all text-sm sm:text-base"
+        >
+          Get a Quote →
+        </a>
+      </div>
+    </div>
+  );
+}
