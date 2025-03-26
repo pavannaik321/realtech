@@ -22,7 +22,7 @@ export default function Home() {
   }, [])
   return (
     <div>
-      {/* <Hero />
+      <Hero />
       <About />
       <WhyItStarted/>
       <Services />
@@ -30,8 +30,8 @@ export default function Home() {
       <WhyChooseUs />
       <Pricing />
       <Contact />
-      <Footer /> */}
-      realtech
+      <Footer />
+      {/* realtech */}
     </div>
   );
 }
