@@ -1,46 +1,53 @@
-// components/Footer.js
-
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
-    return (
-        <footer className="bg-black text-white py-10 px-6 md:px-20">
-            <div data-aos="fade-up" className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-                {/* Left Section */}
-                <div >
-                    <h2 className="text-blue-400 font-bold text-lg flex items-center gap-2"> Cradle Wing
-                    </h2>
-                    <p className="mt-2 text-sm">
-                        We are a startup supporting expecting mothers through all pregnancy stages.
-                    </p>
-                    <p className="mt-2 text-sm">Copyright Satyam Studio</p>
-                </div>
+  return (
+    <footer className="bg-gray-900 text-white py-12 px-6 md:px-16">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        
+        {/* Column 1 - Brand & About */}
+        <div>
+          <h2 className="text-2xl font-bold">RealTech</h2>
+          <p className="text-gray-400 text-sm mt-3">
+            Premium CNC Machines engineered for precision & durability.
+          </p>
+        </div>
 
-                {/* Middle Section */}
-                <div >
-                    <h3 className="text-blue-400 font-bold text-lg">Get in Touch</h3>
-                    <p className="mt-2 text-sm">📍 Vit Vellore,Katpadi,India</p>
-                    <p className="mt-2 text-sm">📧 Pavanpnaik321@gmail.com</p>
-                    <p className="mt-2 text-sm">📞 +91 9113909285</p>
-                </div>
+        {/* Column 2 - Quick Links */}
+        <div>
+          <h3 className="text-lg font-semibold">Quick Links</h3>
+          <ul className="mt-3 space-y-2 text-gray-400 text-sm">
+            <li><a href="#" className="hover:text-blue-400">Home</a></li>
+            <li><a href="#" className="hover:text-blue-400">About Us</a></li>
+            <li><a href="#" className="hover:text-blue-400">Products</a></li>
+            <li><a href="#" className="hover:text-blue-400">Contact</a></li>
+          </ul>
+        </div>
 
-                {/* Right Section */}
-                <div>
-                    <div className="flex gap-4">
-                        <span className="bg-white p-2 rounded-full">
-                            <img src="/images/social_media_icons/insta.png" alt="Instagram" className="w-6 h-6" />
-                        </span>
-                        <span className="bg-white  p-2 rounded-full">
-                            <img src="/images/social_media_icons/fb.png" alt="facebook" className="w-6 h-6" />
-                        </span>
-                        <span className="bg-white  p-2 rounded-full">
-                            <img src="/images/social_media_icons/whatsapp.png" alt="Whatsapp" className="w-6 h-6" />
-                        </span>
-                    </div>
-                    <p className="mt-2 text-sm">
-                    Stay connected with us for the latest updates.
-                    </p>
-                </div>
-            </div>
-        </footer>
-    );
+        {/* Column 3 - Contact */}
+        <div>
+          <h3 className="text-lg font-semibold">Contact</h3>
+          <p className="text-gray-400 text-sm mt-3">123 Vellore, Tamil Nadu, India</p>
+          <p className="text-gray-400 text-sm">Email: realtech@gmail.com</p>
+          <p className="text-gray-400 text-sm">Phone: +91 9999999999c</p>
+        </div>
+
+        {/* Column 4 - Social Media */}
+        <div>
+          <h3 className="text-lg font-semibold">Follow Us</h3>
+          <div className="flex space-x-4 mt-3">
+            <a href="#" className="text-gray-400 hover:text-blue-400 text-xl"><FaFacebookF /></a>
+            <a href="#" className="text-gray-400 hover:text-blue-400 text-xl"><FaTwitter /></a>
+            <a href="#" className="text-gray-400 hover:text-blue-400 text-xl"><FaInstagram /></a>
+            <a href="#" className="text-gray-400 hover:text-blue-400 text-xl"><FaLinkedinIn /></a>
+          </div>
+        </div>
+      </div>
+
+      {/* Copyright */}
+      <div className="mt-8 text-center text-gray-500 text-sm border-t border-gray-700 pt-4">
+        © {new Date().getFullYear()} ShopSabre. All Rights Reserved.
+      </div>
+    </footer>
+  );
 }

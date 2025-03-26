@@ -1,13 +1,10 @@
 // pages/index.js
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Services from "@/components/Services";
-import WhyItMatters from "@/components/WhyItMatters";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import Pricing from "@/components/Pricing";
-import Contact from "@/components/Contact";
+import CncMachines from "@/components/Cncmachines";
+import ConsultationSection from "@/components/ConsultationSection";
 import Footer from "@/components/Footer";
-import WhyItStarted from "@/components/WhyItStarted";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import StatsSection from "@/components/StatsSection";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS CSS
 import {useEffect} from 'react'
@@ -22,7 +19,12 @@ export default function Home() {
   }, [])
   return (
     <div>
+      <Header />
       <Hero />
+      <CncMachines />
+      <ConsultationSection />
+      <StatsSection />
+      <Footer />
     </div>
   );
 }
