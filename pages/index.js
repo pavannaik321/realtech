@@ -5,10 +5,10 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import StatsSection from "@/components/StatsSection";
+import AboutPreview from "@/components/AboutPreview"; // NEW
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // Import AOS CSS
-import {useEffect} from 'react'
-
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 export default function Home() {
   useEffect(() => {
@@ -16,11 +16,13 @@ export default function Home() {
       easing: 'ease-out-quad',
       duration: 1000,
     });
-  }, [])
+  }, []);
+
   return (
     <div>
       <Header />
       <Hero />
+      <AboutPreview /> {/* NEW */}
       <CncMachines />
       <ConsultationSection />
       <StatsSection />
