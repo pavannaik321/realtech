@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import StatsSection from "@/components/StatsSection";
+import aboutus from "@/pages/aboutus";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS CSS
 import {useEffect} from 'react'
@@ -19,6 +20,7 @@ export default function Home() {
   }, [])
   return (
     <div>
+      <aboutus />
       <Header />
       <Hero />
       <CncMachines />
