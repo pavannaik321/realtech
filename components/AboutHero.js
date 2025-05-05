@@ -5,7 +5,7 @@ export default function AboutHero() {
   return (
     <section
       className="relative h-[90vh] bg-fixed bg-cover bg-center flex items-center justify-center overflow-hidden"
-      style={{ backgroundImage: "url(/images/product_images/image1.png)" }}
+      style={{ backgroundImage: "url(/product_images/image1.png)" }}
     >
       {/* Dark overlay for contrast */}
       <div className="absolute inset-0 bg-black/50 z-10" />

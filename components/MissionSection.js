@@ -30,7 +30,7 @@ export default function MissionSection() {
             Our mission is to deliver <strong>best-in-class CNC solutions</strong> that empower creators,
             fabricators, and manufacturers to bring their ideas to life with unmatched efficiency, reliability,
             and precision. <br /> <br />
-            At <span className="text-green-600 font-semibold">ShopSabre</span>, we don't just meet expectations—we redefine them.
+            At <span className="text-green-600 font-semibold">ShopSabre</span>, we dont just meet expectations—we redefine them.
           </p>
         </motion.div>
 
@@ -43,7 +43,7 @@ export default function MissionSection() {
         >
           <div className="rounded-2xl overflow-hidden shadow-lg w-[90%] md:w-[100%]">
             <Image
-              src="/images/product_images/image4.jpg"
+              src="/product_images/image4.jpg"
               alt="Our Mission CNC"
               width={600}
               height={400}
