@@ -4,21 +4,22 @@ import { motion } from "framer-motion";
 
 const innovations = [
   {
-    title: "Next-Gen Technology",
+    title: "CNC Router Machines",
     detail:
-      "Our Pro Series machines integrate automation, multi-zone vacuum tables, and rigid gantry systems — bringing industrial performance to every shop.",
+      "High-precision CNC routers engineered for intricate cutting, carving, and engraving applications across multiple industries.",
   },
   {
-    title: "Designed for the Real World",
+    title: "UPVC Machines",
     detail:
-      "Each ShopSabre CNC is built based on real-world application needs — not trends. Our designs address daily challenges faced by fabricators and creators.",
+      "Advanced UPVC fabrication machines designed for accurate and efficient window, door, and profile manufacturing.",
   },
   {
-    title: "Unmatched Service",
+    title: "Laser Machines",
     detail:
-      "We back every machine with American-based support, expert guidance, and training to keep your operations running at full speed.",
+      "Versatile laser cutting and engraving machines capable of delivering sharp, clean finishes on a variety of materials.",
   },
 ];
+
 
 export default function InnovativeEdgeSection() {
   return (

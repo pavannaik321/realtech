@@ -3,26 +3,33 @@ import { motion } from "framer-motion";
 
 const timelineData = [
   {
-    year: "2001",
-    event: "ShopSabre CNC began its journey with a bold mission: to offer industrial-quality CNC at an affordable price. Born in a garage with determination and ingenuity."
+    year: "2017",
+    event: "Company Established — Real Tech was established in Vaniyambadi, Tamil Nadu as a manufacturer and service provider of CNC Router Machines, Servo CNC Router Machines, Laser Machines, and UPVC Machines."
+  },
+
+  {
+    year: "2019",
+    event: "Customization & Innovation — Introduced customized size machines as per customer requirements, integrating latest technological advancements into every product."
   },
   {
-    year: "2005",
-    event: "Released its first full-size industrial CNC router, redefining what small businesses could expect from their machines."
+    year: "2021",
+    event: "Enhanced Services & Support — Expanded service offerings with phone support, online training, and friendly technical assistance to customers."
   },
   {
-    year: "2011",
-    event: "Moved into a new state-of-the-art facility to keep up with rapidly growing demand and to expand production capacity."
-  },
-  {
-    year: "2018",
-    event: "Unveiled next-gen CNC solutions with high-speed automation, marking a leap in reliability and performance."
+    year: "2023",
+    event: "13 Years of Experience — With deep technical knowledge and updated expertise, Real Tech solidified its reputation as a well-known CNC solutions provider."
   },
   {
     year: "2024",
-    event: "Celebrating over two decades of excellence, now serving 40+ countries with thousands of machines built in America."
+    event: "Continued Excellence — Strengthened our footprint in Tamil Nadu and expanded innovative solutions, further enhancing customer satisfaction and machine performance."
+  },
+  {
+    year: "2025",
+    event: "Empowering the Future of Manufacturing — Our vision is to revolutionize manufacturing by delivering high-quality, reliable, and precision-driven CNC solutions that combine innovation, strength, and ease of use — helping creators bring their ideas to life effortlessly."
   }
 ];
+
+
 
 export default function TimelineSection() {
   return (

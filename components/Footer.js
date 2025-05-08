@@ -17,19 +17,19 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold">Quick Links</h3>
           <ul className="mt-3 space-y-2 text-gray-400 text-sm">
-            <li><a href="#" className="hover:text-blue-400">Home</a></li>
-            <li><a href="/about" className="hover:text-blue-400">About Us</a></li>
+            <li><a href="/index" className="hover:text-blue-400">Home</a></li>
+            <li><a href="/aboutus" className="hover:text-blue-400">About Us</a></li>
             <li><a href="#" className="hover:text-blue-400">Products</a></li>
-            <li><a href="#" className="hover:text-blue-400">Contact</a></li>
+            <li><a href="/page" className="hover:text-blue-400">Contact</a></li>
           </ul>
         </div>
 
         {/* Column 3 - Contact */}
         <div>
           <h3 className="text-lg font-semibold">Contact</h3>
-          <p className="text-gray-400 text-sm mt-3">123 Vellore, Tamil Nadu, India</p>
+          <p className="text-gray-400 text-sm mt-3">1/C/7, C.N.A Road, Near Railway Gate, Pudur,Vaniyambadi-635751</p>
           <p className="text-gray-400 text-sm">Email: realtech@gmail.com</p>
-          <p className="text-gray-400 text-sm">Phone: +91 9999999999c</p>
+          <p className="text-gray-400 text-sm">Phone: +91 7502137362, 8754753223</p>
         </div>
 
         {/* Column 4 - Social Media */}
@@ -46,7 +46,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="mt-8 text-center text-gray-500 text-sm border-t border-gray-700 pt-4">
-        © {new Date().getFullYear()} ShopSabre. All Rights Reserved.
+        © {new Date().getFullYear()} Powered by Techbite.
       </div>
     </footer>
   );

@@ -19,10 +19,10 @@ export default function VisionSection() {
             Our Vision
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed">
-            <span className="font-semibold text-gray-800">Built on American craftsmanship</span>, ShopSabre has grown into a CNC manufacturing leader known for its innovation, integrity, and dedication to precision.
-            <br /> <br />
-            Our vision is to empower the future of global manufacturing by delivering cutting-edge CNC technology—<span className="text-green-600 font-medium">one precision machine at a time</span>.
-          </p>
+  <span className="font-semibold text-gray-800"> Our vision</span>, is to revolutionize the manufacturing industry by providing high-quality, precision-driven machinery that combines <span className="text-green-600 font-medium">innovation, strength, and reliability</span>. At Real Tech, we deliver cutting-edge solutions designed to make your projects come to life with unmatched accuracy and ease. 
+  <br /> <br />
+   
+</p>
         </motion.div>
 
         {/* Right side - icon and accent */}

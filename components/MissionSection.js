@@ -16,22 +16,28 @@ export default function MissionSection() {
           transition={{ duration: 1 }}
           className="text-center md:text-left"
         >
-          <h2 className="text-4xl font-bold text-gray-900 relative inline-block">
-            Our Mission
-            <motion.span
-              layoutId="underline"
-              className="absolute left-0 -bottom-1 w-full h-1 bg-green-400 rounded"
-              initial={{ width: 0 }}
-              whileInView={{ width: "100%" }}
-              transition={{ duration: 0.6 }}
-            />
-          </h2>
-          <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-            Our mission is to deliver <strong>best-in-class CNC solutions</strong> that empower creators,
-            fabricators, and manufacturers to bring their ideas to life with unmatched efficiency, reliability,
-            and precision. <br /> <br />
-            At <span className="text-green-600 font-semibold">ShopSabre</span>, we dont just meet expectations—we redefine them.
-          </p>
+
+
+
+<h2 className="text-4xl font-bold text-gray-900 relative inline-block">
+  Our Mission
+  <motion.span
+    layoutId="underline"
+    className="absolute left-0 -bottom-1 w-full h-1 bg-green-400 rounded"
+    initial={{ width: 0 }}
+    whileInView={{ width: "100%" }}
+    transition={{ duration: 0.6 }}
+  />
+</h2>
+
+<p className="mt-6 text-lg text-gray-700 leading-relaxed">
+At Real Tech, our mission is to provide <strong>best-in-class CNC solutions</strong> that empower creators, fabricators, and manufacturers to bring their ideas to life 
+  with unmatched reliability, efficiency, and precision. Through continuous innovation, we ensure our products incorporate the latest technological advancements, 
+  delivering tools that help our customers stay ahead in their projects. 
+  <br /><br />
+  
+</p>
+
         </motion.div>
 
         {/* Image Section */}

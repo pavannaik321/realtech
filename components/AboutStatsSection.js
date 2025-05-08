@@ -3,9 +3,9 @@ import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 
 const stats = [
-  { label: "CNC Machines Manufactured", value: 10000, suffix: "+" },
-  { label: "Customers in 40+ Countries", value: 40, suffix: "+" },
-  { label: "Years of Innovation", value: 20, suffix: "+" },
+  { label: "Machines Delivered in Tamil Nadu", value: 100, suffix: "+" },
+  { label: "Customized Machine Sizes Offered", value: 50, suffix: "+" },
+  { label: "Years of Technical Experience", value: 13, suffix: "+" },
 ];
 
 export default function AboutStatsSection() {
@@ -16,7 +16,7 @@ export default function AboutStatsSection() {
           By the Numbers
         </h2>
         <p className="text-gray-600 mt-2 text-lg">
-          Proven performance, global trust, and a legacy of innovation.
+          Proven performance, customer trust, and a legacy of technical expertise.
         </p>
       </div>
 

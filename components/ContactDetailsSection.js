@@ -8,19 +8,19 @@ export default function ContactDetailsSection() {
         <div>
           <h3 className="font-semibold text-lg">Email Support</h3>
           <p className="text-gray-600">Our team responds in real time.</p>
-          <a className="text-blue-600 mt-2 block" href="mailto:hello@shopsabre.com">
-            hello@shopsabre.com
+          <a className="text-blue-600 mt-2 block" href="mailto:realtech@gmail.com">
+            realtech@gmail.com
           </a>
         </div>
         <div>
           <h3 className="font-semibold text-lg">Visit Our Office</h3>
           <p className="text-gray-600">See our tech in action at:</p>
-          <p className="text-gray-800 mt-2">7176 10th Street North, Oakdale, MN 55128</p>
+          <p className="text-gray-800 mt-2">1/C/7, C.N.A Road, Near Railway Gate, Pudur,Vaniyambadi-635751.</p>
         </div>
         <div>
           <h3 className="font-semibold text-lg">Call Us Directly</h3>
           <p className="text-gray-600">Available during working hours:</p>
-          <p className="text-gray-800 mt-2">(+1) 866-682-0205</p>
+          <p className="text-gray-800 mt-2">(+91) 7502137362, 8754753223</p>
         </div>
       </div>
     </section>

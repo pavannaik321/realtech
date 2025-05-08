@@ -4,21 +4,22 @@ import { motion } from "framer-motion";
 
 const values = [
   {
-    title: "Built in the USA",
+    title: "Market Research",
     description:
-      "All ShopSabre CNC machines are built at our Lakeville, Minnesota facility — ensuring world-class American quality and craftsmanship.",
+      "We have delivered more than 100 machines across Tamil Nadu, establishing deep market understanding and customer trust.",
   },
   {
-    title: "Customer-Driven Design",
+    title: "Proposal Reviews",
     description:
-      "We constantly evolve based on customer feedback to ensure our machines solve real-world fabrication challenges.",
+      "We offer customized machine sizes tailored to meet each customer’s specific requirements, ensuring optimal fit and performance.",
   },
   {
-    title: "Precision Meets Power",
+    title: "Tech Support",
     description:
-      "Our engineering blends high-end motion systems with industrial rigidity for unmatched performance.",
-  },
+      "Our dedicated support includes phone assistance, online training, and friendly technical guidance to keep your machines running smoothly.",
+  }
 ];
+
 
 export default function CoreValuesSection() {
   return (
@@ -29,7 +30,7 @@ export default function CoreValuesSection() {
         transition={{ duration: 0.8 }}
         className="max-w-6xl mx-auto"
       >
-        <h2 className="text-3xl font-bold text-center mb-12">Our Core Values</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">Services</h2>
         <div className="grid md:grid-cols-3 gap-10">
           {values.map((value, index) => (
             <motion.div

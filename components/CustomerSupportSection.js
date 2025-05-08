@@ -10,10 +10,10 @@ export default function CustomerSupportSection() {
         transition={{ duration: 1 }}
         className="max-w-5xl mx-auto text-center"
       >
-        <h2 className="text-3xl font-bold mb-6">Dedicated Support, Always</h2>
-        <p className="text-gray-700 text-lg">
-          We don’t just sell machines — we build relationships. Our in-house U.S. based support ensures you get real-time help from real people.
-        </p>
+        <h2 className="text-3xl font-bold mb-6">Reliable Support, Always</h2>
+<p className="text-gray-700 text-lg">
+  At Real Tech, we don’t just deliver machines — we ensure lasting partnerships. Our team offers dedicated phone support, online training, and friendly technical assistance to keep your operations running smoothly.
+</p>
       </motion.div>
     </section>
   );

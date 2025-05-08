@@ -10,10 +10,10 @@ export default function GlobalPresenceSection() {
         transition={{ duration: 0.8 }}
         className="max-w-5xl mx-auto text-center"
       >
-        <h2 className="text-3xl font-bold mb-6">Global Reach</h2>
-        <p className="text-lg text-gray-700">
-          With clients in 40+ countries, ShopSabre delivers world-class CNC technology across borders. Our global network ensures you get expert support, no matter where you are.
-        </p>
+        <h2 className="text-3xl font-bold mb-6">Our Reach</h2>
+<p className="text-lg text-gray-700">
+  With over 100 machines delivered across Tamil Nadu, Real Tech empowers manufacturers with advanced CNC, UPVC, and Laser solutions. Our dedicated support and service ensure reliability and precision for every customer we serve.
+</p>
       </motion.div>
     </section>
   );

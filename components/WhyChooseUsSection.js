@@ -3,11 +3,12 @@
 import { motion } from "framer-motion";
 
 const reasons = [
-  "Over 20 years of proven CNC expertise.",
-  "Used by professionals in 40+ countries.",
-  "Industry-leading support and training.",
-  "Trusted across aerospace, fabrication, woodworking, and more.",
-  "Affordable precision — high performance without overpriced markups.",
+  "1300×2500 mm table size with 200/300 mm Z-axis.",
+  "Equipped with 20 mm square rail, helical rack, and 25 mm ballscrew.",
+  "3.5 kW air-cooled spindle with NK105 controller and servo system.",
+  "Heavy welded frame with T-slot clamping for vibration-free machining.",
+  "0.05 mm accuracy, WiFi control, night vision light & error detection.",
+  "One-year warranty with 5 days of comprehensive training."
 ];
 
 export default function WhyChooseUsSection() {
@@ -20,7 +21,7 @@ export default function WhyChooseUsSection() {
           transition={{ duration: 0.6 }}
           className="text-3xl font-bold mb-6"
         >
-          Why Choose ShopSabre?
+          Specification
         </motion.h2>
         <motion.ul
           initial="hidden"

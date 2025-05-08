@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { label: "Clients Served Worldwide", value: 10000 },
-  { label: "Support Hours Per Week", value: 60 },
-  { label: "Years in Business", value: 20 }
+  { label: "Machines Delivered in Tamil Nadu", value: 100 },
+  { label: "Customized Machine Sizes Offered", value: 50 },
+  { label: "Years of Technical Experience", value: 13 }
 ];
 
 export default function ContactStatsSection() {
