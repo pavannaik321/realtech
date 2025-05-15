@@ -14,7 +14,7 @@ export default function AboutHero() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.3 }}
-        transition={{ duration: 2, ease: "easeInOut" }}
+        transition={{ duration: 1, ease: "easeInOut" }}
         className="absolute inset-0 bg-gradient-to-br from-green-400/30 via-yellow-300/20 to-transparent z-20"
       />
 
@@ -22,7 +22,7 @@ export default function AboutHero() {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.3 }}
         className="relative z-30 text-center max-w-4xl px-4"
       >
         <div className="bg-black/70 backdrop-blur-md rounded-2xl p-6 md:p-10 shadow-2xl border border-white/10">
@@ -49,7 +49,7 @@ export default function AboutHero() {
       <motion.div
         initial={{ opacity: 0, scale: 0.6 }}
         animate={{ opacity: 0.4, scale: 1 }}
-        transition={{ delay: 1.2, duration: 1 }}
+        transition={{ delay: 1.1, duration: 1 }}
         className="absolute bottom-12 right-12 w-56 h-56 bg-yellow-400/30 blur-3xl rounded-full z-0"
       />
     </section>

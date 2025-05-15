@@ -28,7 +28,7 @@ export default function InnovativeEdgeSection() {
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.3 }}
           className="text-3xl md:text-4xl font-bold mb-10"
         >
           Innovation That Powers Performance
@@ -39,7 +39,7 @@ export default function InnovativeEdgeSection() {
               key={index}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.2, duration: 0.6 }}
+              transition={{ delay: index * 0.2, duration: 0.3 }}
               className="bg-white text-gray-900 rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow"
             >
               <h3 className="text-xl font-semibold mb-2">{item.title}</h3>

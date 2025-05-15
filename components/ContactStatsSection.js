@@ -17,7 +17,7 @@ export default function ContactStatsSection() {
             key={index}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
+            transition={{ duration: 0.3, delay: index * 0.2 }}
             className="text-4xl font-bold"
           >
             {stat.value.toLocaleString()}

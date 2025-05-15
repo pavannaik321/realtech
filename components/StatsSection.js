@@ -82,7 +82,7 @@ function CountUpNumber({ end, suffix }) {
       ref={ref}
       className="text-4xl md:text-6xl font-bold"
       animate={{ opacity: [0, 1], scale: [0.9, 1] }}
-      transition={{ duration: 0.8 }}
+      transition={{ duration: 0.3 }}
     >
       {count}
       {suffix}

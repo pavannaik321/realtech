@@ -27,7 +27,7 @@ export default function CoreValuesSection() {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.3 }}
         className="max-w-6xl mx-auto"
       >
         <h2 className="text-3xl font-bold text-center mb-12">Services</h2>
@@ -37,7 +37,7 @@ export default function CoreValuesSection() {
               key={index}
               initial={{ y: 30, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
-              transition={{ delay: index * 0.2, duration: 0.6 }}
+              transition={{ delay: index * 0.2, duration: 0.3 }}
               className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow"
             >
               <h3 className="text-xl font-semibold mb-3">{value.title}</h3>

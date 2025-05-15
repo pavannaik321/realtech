@@ -13,7 +13,7 @@ export default function MissionSection() {
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.3 }}
           className="text-center md:text-left"
         >
 
@@ -26,7 +26,7 @@ export default function MissionSection() {
     className="absolute left-0 -bottom-1 w-full h-1 bg-green-400 rounded"
     initial={{ width: 0 }}
     whileInView={{ width: "100%" }}
-    transition={{ duration: 0.6 }}
+    transition={{ duration: 0.3 }}
   />
 </h2>
 
@@ -44,7 +44,7 @@ At Real Tech, our mission is to provide <strong>best-in-class CNC solutions</str
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.3 }}
           className="flex justify-center"
         >
           <div className="rounded-2xl overflow-hidden shadow-lg w-[90%] md:w-[100%]">

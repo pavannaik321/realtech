@@ -26,7 +26,7 @@ export default function AboutStatsSection() {
             key={index}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.2 }}
+            transition={{ duration: 0.3, delay: index * 0.2 }}
             viewport={{ once: true }}
             className="bg-white/60 backdrop-blur-md shadow-lg border border-gray-200 rounded-2xl p-8 flex flex-col items-center hover:scale-105 transition-transform duration-300 ease-in-out"
           >
@@ -75,7 +75,7 @@ function CountUpNumber({ end, suffix }) {
       ref={ref}
       className="text-5xl md:text-6xl font-bold text-green-600"
       animate={{ opacity: [0, 1], scale: [0.95, 1] }}
-      transition={{ duration: 0.8 }}
+      transition={{ duration: 0.3 }}
     >
       {count}{suffix}
     </motion.h3>

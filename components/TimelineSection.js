@@ -44,7 +44,7 @@ export default function TimelineSection() {
             key={index}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: index * 0.15 }}
+            transition={{ duration: 0.3, delay: index * 0.10 }}
             className={`relative mb-12 flex flex-col md:flex-row items-center ${
               index % 2 === 0 ? "md:flex-row-reverse" : ""
             }`}

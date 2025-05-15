@@ -29,7 +29,7 @@ export default function VisionSection() {
         <motion.div
           initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.3 }}
           className="flex justify-center items-center"
         >
           <div className="bg-white border-2 border-green-200 p-6 rounded-full shadow-lg hover:scale-105 transition-transform duration-300">

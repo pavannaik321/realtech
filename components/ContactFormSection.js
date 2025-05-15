@@ -18,7 +18,7 @@ export default function ContactFormSection() {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.6 }}
         className="max-w-4xl mx-auto"
       >
         <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
