@@ -1,5 +1,4 @@
 "use client";
-import { motion } from "framer-motion";
 import Image from "next/image";
 
 export default function MissionSection() {
@@ -10,43 +9,22 @@ export default function MissionSection() {
 
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-6xl mx-auto">
         {/* Text Content */}
-        <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.3 }}
-          className="text-center md:text-left"
-        >
+        <div className="text-center md:text-left">
+          <h2 className="text-4xl font-bold text-gray-900 relative inline-block">
+            Our Mission
+            <span className="absolute left-0 -bottom-1 w-full h-1 bg-green-400 rounded"></span>
+          </h2>
 
-
-
-<h2 className="text-4xl font-bold text-gray-900 relative inline-block">
-  Our Mission
-  <motion.span
-    layoutId="underline"
-    className="absolute left-0 -bottom-1 w-full h-1 bg-green-400 rounded"
-    initial={{ width: 0 }}
-    whileInView={{ width: "100%" }}
-    transition={{ duration: 0.3 }}
-  />
-</h2>
-
-<p className="mt-6 text-lg text-gray-700 leading-relaxed">
-At Real Tech, our mission is to provide <strong>best-in-class CNC solutions</strong> that empower creators, fabricators, and manufacturers to bring their ideas to life 
-  with unmatched reliability, efficiency, and precision. Through continuous innovation, we ensure our products incorporate the latest technological advancements, 
-  delivering tools that help our customers stay ahead in their projects. 
-  <br /><br />
-  
-</p>
-
-        </motion.div>
+          <p className="mt-6 text-lg text-gray-700 leading-relaxed">
+            At Real Tech, our mission is to provide <strong>best-in-class CNC solutions</strong> that empower creators, fabricators, and manufacturers to bring their ideas to life 
+            with unmatched reliability, efficiency, and precision. Through continuous innovation, we ensure our products incorporate the latest technological advancements, 
+            delivering tools that help our customers stay ahead in their projects. 
+            <br /><br />
+          </p>
+        </div>
 
         {/* Image Section */}
-        <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.3 }}
-          className="flex justify-center"
-        >
+        <div className="flex justify-center">
           <div className="rounded-2xl overflow-hidden shadow-lg w-[90%] md:w-[100%]">
             <Image
               src="/product_images/image4.jpg"
@@ -56,7 +34,7 @@ At Real Tech, our mission is to provide <strong>best-in-class CNC solutions</str
               className="w-full h-auto object-cover"
             />
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
