@@ -7,36 +7,29 @@ const ProductCard = () => {
   const products = [
     {
       id: 1,
-      name: 'CNC Lathe RT-3000',
-      shortDescription: 'High-precision CNC lathe machine for industrial use.',
-      image: '/product_images/image3.png',
-      description: 'The RT-3000 is a high-efficiency CNC lathe used for metal fabrication and precision machining. Equipped with automated tool changers and digital readouts.',
-      price: '$4,500'
+      name: 'CNC wood Lathe Machine',
+      shortDescription: 'High-precision CNC Wood lathe machine for industrial use.',
+      image: '/product_images/image1.jpg',
+      description: 'A specialized machine tool that uses computer-controlled systems to shape wood into precise, cylindrical forms, often for furniture legs, columns, or decorative pieces.',
+      price: 'Rs.4,50,000'
     },
     {
       id: 2,
-      name: 'CNC Milling RT-MX2',
+      name: 'Servo CNC router 1325 Single head',
       shortDescription: 'Compact CNC milling machine for small batch work.',
-      image: '/product_images/image3.png',
-      description: 'Ideal for precision milling, the RT-MX2 offers a compact design and efficient spindle speed control for consistent results.',
-      price: '$5,800'
+      image: '/product_images/image3.jpg',
+      description: ' 1325 CNC router delivers sharp, clean designs,Performs carving, engraving, and cutting on wood.Powerful single-head router engraves wood with precision. ',
+      price: 'Rs.5,800'
     },
     {
       id: 3,
-      name: 'CNC Router RT-RX1',
+      name: 'CNC Laser Cutting Machine',
       shortDescription: 'High-speed router for wood and plastic CNC jobs.',
-      image: '/product_images/image3.png',
-      description: 'Perfect for woodworkers and plastic fabricators, the RT-RX1 combines speed and accuracy in one powerful CNC router.',
-      price: '$3,900'
+      image: '/product_images/image1.png',
+      description: 'A CNC laser cutting machine is a computer-controlled cutting tool that utilizes a laser beam to cut through materials like metal, wood, and plastic.',
+      price: 'Rs.3,900'
     },
-    {
-      id: 4,
-      name: 'CNC Lathe RT-2000',
-      shortDescription: 'Durable lathe for medium-scale CNC operations.',
-      image: '/product_images/image3.png',
-      description: 'Built for robust CNC turning, the RT-2000 features a strong frame and precise control, suitable for versatile machining tasks.',
-      price: '$4,000'
-    }
+    
   ];
 
   const handleProductClick = (product) => {
