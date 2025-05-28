@@ -1,6 +1,7 @@
+import Image from 'next/image';
 import { useState } from 'react';
 
-const ProductCard = ({ onSelect }) => {
+const ProductCard = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const products = [
@@ -8,7 +9,7 @@ const ProductCard = ({ onSelect }) => {
       id: 1,
       name: 'CNC Lathe RT-3000',
       shortDescription: 'High-precision CNC lathe machine for industrial use.',
-      image: '/public/images/image1.png',
+      image: '/product_images/image3.png',
       description: 'The RT-3000 is a high-efficiency CNC lathe used for metal fabrication and precision machining. Equipped with automated tool changers and digital readouts.',
       price: '$4,500'
     },
@@ -16,7 +17,7 @@ const ProductCard = ({ onSelect }) => {
       id: 2,
       name: 'CNC Milling RT-MX2',
       shortDescription: 'Compact CNC milling machine for small batch work.',
-      image: '\product_images\image1.png',
+      image: '/product_images/image3.png',
       description: 'Ideal for precision milling, the RT-MX2 offers a compact design and efficient spindle speed control for consistent results.',
       price: '$5,800'
     },
@@ -24,7 +25,7 @@ const ProductCard = ({ onSelect }) => {
       id: 3,
       name: 'CNC Router RT-RX1',
       shortDescription: 'High-speed router for wood and plastic CNC jobs.',
-      image: 'C:\Users\Divyabaskaran\Desktop\product\realtech\public\product_images\image2.png',
+      image: '/product_images/image3.png',
       description: 'Perfect for woodworkers and plastic fabricators, the RT-RX1 combines speed and accuracy in one powerful CNC router.',
       price: '$3,900'
     },
@@ -32,7 +33,7 @@ const ProductCard = ({ onSelect }) => {
       id: 4,
       name: 'CNC Lathe RT-2000',
       shortDescription: 'Durable lathe for medium-scale CNC operations.',
-      image: '/public/images/image4.png',
+      image: '/product_images/image3.png',
       description: 'Built for robust CNC turning, the RT-2000 features a strong frame and precise control, suitable for versatile machining tasks.',
       price: '$4,000'
     }
@@ -40,7 +41,7 @@ const ProductCard = ({ onSelect }) => {
 
   const handleProductClick = (product) => {
     setSelectedProduct(product);
-    if (onSelect) onSelect(product);
+    // if (onSelect) onSelect(product);
   };
 
   return (
@@ -52,7 +53,9 @@ const ProductCard = ({ onSelect }) => {
             className="bg-white rounded-xl shadow-md hover:shadow-xl p-4 cursor-pointer transition"
             onClick={() => handleProductClick(product)}
           >
-            <img
+            <Image
+              width={500}
+              height={500}
               src={product.image}
               alt={product.name}
               className="h-48 w-full object-cover rounded-lg"
@@ -66,7 +69,9 @@ const ProductCard = ({ onSelect }) => {
       {selectedProduct && (
         <div className="mt-12 border-t pt-8">
           <div className="flex flex-col md:flex-row items-start gap-6">
-            <img
+            <Image
+              width={500}
+              height={500}
               src={selectedProduct.image}
               alt={selectedProduct.name}
               className="w-full md:w-1/2 rounded-lg shadow"

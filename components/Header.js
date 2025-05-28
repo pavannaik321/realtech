@@ -15,10 +15,10 @@ export default function Header() {
 
         {/* Navigation - Desktop */}
         <nav className="hidden md:flex space-x-8 text-gray-700 font-medium">
-          <a href="/index" className="text-white">Home</a>
-          <a href="/aboutus" className="text-white">About Us</a>
-          <a href="/product" className="text-white">Products</a>
-          <a href="/page" className="text-white">Contact</a>
+          <Link href="/" className="text-white">Home</Link>
+          <Link href="/aboutus" className="text-white">About Us</Link>
+          <Link href="/product" className="text-white">Products</Link>
+          <Link href="/page" className="text-white">Contact</Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -33,10 +33,10 @@ export default function Header() {
       {/* Mobile Menu */}
       {menuOpen && (
         <nav className="md:hidden bg-black shadow-md py-4 px-6">
-          <a href="/index" className="block py-2 text-white">Home</a>
-          <a href="/aboutus" className="block py-2 text-white">About Us</a>
-          <a href="/product" className="block py-2 text-white">Products</a>
-          <a href="/page" className="block py-2 text-white">Contact</a>
+          <Link href="/" className="block py-2 text-white">Home</Link>
+          <Link href="/aboutus" className="block py-2 text-white">About Us</Link>
+          <Link href="/product" className="block py-2 text-white">Products</Link>
+          <Link href="/page" className="block py-2 text-white">Contact</Link>
         </nav>
       )}
     </header>
