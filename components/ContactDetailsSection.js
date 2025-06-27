@@ -9,7 +9,7 @@ export default function ContactDetailsSection() {
           <h3 className="font-semibold text-lg">Email Support</h3>
           <p className="text-gray-600">Our team responds in real time.</p>
           <a className="text-blue-600 mt-2 block" href="mailto:realtech@gmail.com">
-            realtech@gmail.com
+            realtechvnb@gmail.com
           </a>
         </div>
         <div>

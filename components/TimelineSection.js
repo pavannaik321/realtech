@@ -1,35 +1,32 @@
-"use client";
+'use client';
 import { motion } from "framer-motion";
 
 const timelineData = [
   {
-    year: "2017",
-    event: "Company Established — Real Tech was established in Vaniyambadi, Tamil Nadu as a manufacturer and service provider of CNC Router Machines, Servo CNC Router Machines, Laser Machines, and UPVC Machines."
-  },
-
-  {
-    year: "2019",
-    event: "Customization & Innovation — Introduced customized size machines as per customer requirements, integrating latest technological advancements into every product."
+    year: "2014",
+    event: "Humble Beginnings — Real Tech was founded in 2014 in Vaniyambadi, Tamil Nadu, as a manufacturer and supplier of CNC Wood Router Machines, Plasma Cutting Machines, and more."
   },
   {
-    year: "2021",
-    event: "Enhanced Services & Support — Expanded service offerings with phone support, online training, and friendly technical assistance to customers."
+    year: "2016",
+    event: "Infrastructure Expansion — Established a robust infrastructure with dedicated units for manufacturing, warehousing, quality control, and marketing to meet growing customer demands."
+  },
+  {
+    year: "2018",
+    event: "Product Diversification — Expanded our product line to include PVC Vacuum Press Machines, CNC Laser Cutting Machines, and CNC Stone Engraving Machines, catering to diverse industrial needs."
+  },
+  {
+    year: "2020",
+    event: "Customer-Centric Growth — Introduced customized CNC solutions and continued to prioritize simple operation, energy efficiency, and low maintenance in every machine."
   },
   {
     year: "2023",
-    event: "13 Years of Experience — With deep technical knowledge and updated expertise, Real Tech solidified its reputation as a well-known CNC solutions provider."
-  },
-  {
-    year: "2024",
-    event: "Continued Excellence — Strengthened our footprint in Tamil Nadu and expanded innovative solutions, further enhancing customer satisfaction and machine performance."
+    event: "Reputation & Reach — Gained recognition across Tamil Nadu and beyond as a trusted name for industrial CNC machinery, supported by experienced leadership and advanced technology."
   },
   {
     year: "2025",
-    event: "Empowering the Future of Manufacturing — Our vision is to revolutionize manufacturing by delivering high-quality, reliable, and precision-driven CNC solutions that combine innovation, strength, and ease of use — helping creators bring their ideas to life effortlessly."
+    event: "Vision Forward — With over a decade of excellence, we aim to empower the future of manufacturing through reliable, precise, and innovative CNC solutions tailored to customer success."
   }
 ];
-
-
 
 export default function TimelineSection() {
   return (

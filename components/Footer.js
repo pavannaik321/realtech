@@ -28,7 +28,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold">Contact</h3>
           <p className="text-gray-400 text-sm mt-3">1/C/7, C.N.A Road, Near Railway Gate, Pudur,Vaniyambadi-635751</p>
-          <p className="text-gray-400 text-sm">Email: realtech@gmail.com</p>
+          <p className="text-gray-400 text-sm">Email: realtechvnb@gmail.com</p>
           <p className="text-gray-400 text-sm">Phone: +91 7502137362, 8754753223</p>
         </div>
 
