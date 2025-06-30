@@ -28,7 +28,7 @@ const cncMachines = [
     models: "2 MODELS",
     price: "STARTING AT $59,995.00",
     application: "ALL CNC LASER APPLICATIONS",
-    imgSrc: "/product_images/image3.png",
+    imgSrc: "/product_images/IndustrialCNC.png",
     links: [
       { text: "All CNC Lasers", href: "#" },
       { text: "Get a Quote", href: "#" },
