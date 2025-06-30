@@ -3,10 +3,13 @@ import { motion } from "framer-motion";
 
 export default function AboutHero() {
   return (
-    <section
-      className="relative h-[90vh] bg-fixed bg-cover bg-center flex items-center justify-center overflow-hidden"
-      style={{ backgroundImage: "url(/product_images/image1.png)" }}
-    >
+    <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
+      {/* Background Image Layer (Not fixed, better for performance) */}
+      <div
+        className="absolute inset-0 bg-cover bg-center z-0"
+        style={{ backgroundImage: "url(/product_images/image1.png)" }}
+      />
+
       {/* Dark overlay for contrast */}
       <div className="absolute inset-0 bg-black/50 z-10" />
 
@@ -26,15 +29,14 @@ export default function AboutHero() {
         className="relative z-30 text-center max-w-4xl px-4"
       >
         <div className="bg-black/70 backdrop-blur-md rounded-2xl p-6 md:p-10 shadow-2xl border border-white/10">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight tracking-tight drop-shadow-lg">
-  Sculpting Elegance from wood
-</h1>
-<h2 className="text-3xl md:text-4xl font-bold text-white leading-snug tracking-tight drop-shadow-lg mt-2">
-  Strength from technology
-</h2>
-
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight tracking-tight drop-shadow-lg">
+            Sculpting Elegance from wood
+          </h1>
+          <h2 className="text-3xl md:text-4xl font-bold text-white leading-snug tracking-tight drop-shadow-lg mt-2">
+            Strength from technology
+          </h2>
           <p className="mt-4 text-lg md:text-xl text-green-300 font-medium drop-shadow">
-             Delivering Innovation, Quality & Dependability since day one.
+            Delivering Innovation, Quality & Dependability since day one.
           </p>
         </div>
       </motion.div>
