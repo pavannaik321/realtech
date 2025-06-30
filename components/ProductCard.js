@@ -165,7 +165,7 @@ const productsData = {
         'Business Type': 'Manufacturer, Exporter, Supplier',
         'Type': 'Carbon Steel, Brass',
         'Layout': 'Horizontal',
-        'Shredding Capacity': '1-500 kg / hr',
+        'Shredding Capacity': '1-500 kg/hr',
         'Shredding Machine Type': 'Cross-Cut',
         'Engraving Speed': '25000 Per/min',
         'Specialityr': 'Workpiece Cooling System'
