@@ -3,35 +3,48 @@ import Image from "next/image";
 const cncMachines = [
   {
     title: "CNC ROUTERS",
-    models: "6 MODELS",
-    price: "STARTING AT $10,495.00",
+    models: "4 MODELS",
+    price: "STARTING AT Rs. 3,80,000",
     application: "CNC ROUTER APPLICATIONS",
-    imgSrc: "/product_images/image1.png", // Replace with actual image path
+    imgSrc: "/product_images/CNC Router1_servo double head.png", // Replace with actual image path
     links: [
-      { text: "All CNC Routers", href: "#" },
-      { text: "Get a Quote", href: "#" },
+      { text: "All CNC Routers", href: "/product" },
+      { text: "Get a Quote", href: "https://wa.me/918754753223" },
     ],
   },
   {
     title: "CNC PLASMAS",
-    models: "3 MODELS",
-    price: "STARTING AT $6,495.00",
+    models: "1 MODEL",
+    price: "STARTING AT Rs. 6,00,000",
+
     application: "ALL CNC PLASMA APPLICATIONS",
-    imgSrc: "/product_images/image2.png",
+    imgSrc: "/product_images/cnc plasma.jpg",
     links: [
-      { text: "All CNC Plasma", href: "#" },
-      { text: "Get a Quote", href: "#" },
+      { text: "All CNC Plasma", href: "/product" },
+      { text: "Get a Quote", href: "https://wa.me/918754753223" },
     ],
   },
   {
     title: "CNC LASERS",
-    models: "2 MODELS",
-    price: "STARTING AT $59,995.00",
+    models: "1 MODEL",
+    price: "STARTING AT Rs. 21,000,00",
+
     application: "ALL CNC LASER APPLICATIONS",
-    imgSrc: "/product_images/IndustrialCNC.png",
+    imgSrc: "/product_images/RT fiber laser.png",
     links: [
-      { text: "All CNC Lasers", href: "#" },
-      { text: "Get a Quote", href: "#" },
+      { text: "All CNC Lasers", href: "/product" },
+      { text: "Get a Quote", href: "https://wa.me/918754753223" },
+    ],
+  },
+  {
+    title: "UPVC MACHINES",
+    models: "6 MODELS",
+    price: "STARTING AT Rs. 2,30,000",
+    application: "CNC ROUTER APPLICATIONS",
+    imgSrc: "/product_images/upvc front.png", // Replace with actual image path
+    links: [
+      { text: "All CNC Routers", href: "/product" },
+      { text: "Get a Quote", href: "https://wa.me/918754753223" },
     ],
   },
 ];
@@ -44,12 +57,12 @@ export default function CncMachines() {
       </h2>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
         {cncMachines.map((machine, index) => (
           <div
             key={index}
             className="bg-white rounded-lg overflow-hidden p-6 flex flex-col"
-            style={{ boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.15)" }}            
+            style={{ boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.15)" }}
           >
             {/* Image */}
             <div className="relative w-full h-64">
@@ -64,12 +77,18 @@ export default function CncMachines() {
             {/* Content */}
             <h3 className="text-xl font-bold mt-4">{machine.title}</h3>
             <p className="text-gray-600 text-sm">{machine.models}</p>
-            <p className="text-gray-900 font-semibold text-sm">{machine.price}</p>
+            <p className="text-gray-900 font-semibold text-sm">
+              {machine.price}
+            </p>
 
             {/* Links */}
             <div className="mt-4 flex justify-between text-blue-600 text-sm font-medium">
               {machine.links.map((link, i) => (
-                <a key={i} href={link.href} className="flex items-center space-x-1">
+                <a
+                  key={i}
+                  href={link.href}
+                  className="flex items-center space-x-1"
+                >
                   <span>{link.text}</span> <span>→</span>
                 </a>
               ))}

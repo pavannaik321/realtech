@@ -18,7 +18,7 @@ export default function MissionSection() {
           <p className="mt-6 text-lg text-gray-700 leading-relaxed">
             At Real Tech, our mission is to provide <strong>best-in-class CNC solutions</strong> that empower creators, fabricators, and manufacturers to bring their ideas to life 
             with unmatched reliability, efficiency, and precision. Through continuous innovation, we ensure our products incorporate the latest technological advancements, 
-            delivering tools that help our customers stay ahead in their projects. 
+            delivering tools that help our customers stay ahead in their projects.<strong>All type of CNC Machine can be import or Export Services Available. </strong> 
             <br /><br />
           </p>
         </div>

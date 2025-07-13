@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FiMenu, FiX } from "react-icons/fi";
 
 export default function Header() {
@@ -10,8 +11,17 @@ export default function Header() {
     <header className="bg-black shadow-md fixed w-full z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
         
-        {/* Logo */}
-        <a href="#" className="text-2xl font-bold text-white">RealTech</a>
+        {/* Logo with Text */}
+        <Link href="/" className="flex items-center gap-2 text-white">
+          <Image
+            src="/product_images/RT logo.png" // Replace with your actual image path in /public
+            alt="RealTech Logo"
+            width={40}
+            height={40}
+            className=""
+          />
+          <span className="text-2xl font-bold">RealTech</span>
+        </Link>
 
         {/* Navigation - Desktop */}
         <nav className="hidden md:flex space-x-8 text-gray-700 font-medium">

@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function ConsultationSection() {
   return (
     <section className="bg-white py-16 px-6 md:px-12">
-      <div 
-      className="max-w-6xl mx-auto flex flex-col md:flex-row items-center bg-white rounded-lg overflow-hidden"
-      style={{ boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.15)" }}    
+      <div
+        className="max-w-6xl mx-auto flex flex-col md:flex-row items-center bg-white rounded-lg overflow-hidden"
+        style={{ boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.15)" }}
       >
         {/* Left: Image */}
         <div className="w-full md:w-1/2">
@@ -29,7 +29,7 @@ export default function ConsultationSection() {
 
           {/* Button Link */}
           <a
-            href="#consultation"
+            href="tel:+9187547532223" // replace with your phone number
             className="mt-5 inline-flex items-center text-blue-600 font-medium hover:underline"
           >
             Free Consultation →
