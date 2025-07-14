@@ -2,13 +2,13 @@ import React from "react";
 
 export default function HeroSection() {
   return (
-    <div className="relative w-full h-auto min-h-screen bg-black">
-      {/* Background Video */}
-      <img
-        src="/product_images/CNC Router1_servo double head.png" // Replace with your actual image path
-        alt="Hero Background"
-        className="absolute top-0 left-0 w-full h-full object-fill pointer-events-none "
-      />
+    <div className="relative w-full min-h-screen bg-black overflow-hidden">
+  {/* Background Image */}
+  <img
+    src="/product_images/CNC Router1_servo double head.png" // Replace with your actual image path
+    alt="Hero Background"
+    className="absolute inset-0 w-full h-full object-cover sm:object-fill pointer-events-none"
+  />
 
       {/* Overlay */}
       <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-70 text-white text-center px-4">
