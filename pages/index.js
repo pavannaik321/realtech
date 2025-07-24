@@ -4,7 +4,7 @@ import ConsultationSection from "@/components/ConsultationSection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import StatsSection from "@/components/StatsSection";
+//import StatsSection from "@/components/StatsSection";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS CSS
 import {useEffect} from 'react'
@@ -24,7 +24,7 @@ export default function Home() {
       <Hero />
       <CncMachines />
       <ConsultationSection />
-      <StatsSection />
+      
       <Footer />
     </div>
   );

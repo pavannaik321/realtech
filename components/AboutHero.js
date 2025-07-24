@@ -5,9 +5,12 @@ export default function AboutHero() {
   return (
     <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background Image Layer (Not fixed, better for performance) */}
-      <div
-        className="absolute inset-0 bg-cover bg-center z-0"
-        style={{ backgroundImage: "url(/product_images/image1.png)" }}
+      <img
+        src="/product_images/aboutimage.jpg" 
+        alt="Hero Background"
+
+        className="absolute inset-0 w-full h-full object-cover sm:object-fill pointer-events-none"
+
       />
 
       {/* Dark overlay for contrast */}
